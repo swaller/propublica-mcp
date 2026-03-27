@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "build": "echo 'No build step required for Python MCP server'",
-    "deploy": "npx wrangler deploy",
+    "deploy": "npx wrangler@4 deploy",
     "dev": "python -m propublica_mcp.server",
     "start": "python -m propublica_mcp.server",
     "test": "pytest tests/ -v"
